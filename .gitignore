@@ -31,3 +31,7 @@
 # Debug files
 *.dSYM/
 *.su
+
+gotools/bin
+gotools/pkg
+gotools/src
