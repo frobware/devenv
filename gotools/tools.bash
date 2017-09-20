@@ -24,8 +24,9 @@ go get ${UPDATE} golang.org/x/tools/cmd/gorename
 go get ${UPDATE} github.com/kisielk/godepgraph
 go get ${UPDATE} github.com/fzipp/pythia
 go get ${UPDATE} github.com/alecthomas/gometalinter
-go get ${UPDATE} github.com/derekparker/delve
+go get ${UPDATE} github.com/zmb3/gogetdoc
 
+go get ${UPDATE} -d github.com/derekparker/delve/cmd/dlv
 make -C $GOPATH/src/github.com/derekparker/delve install
 
 PATH=$GOPATH/bin:$PATH gometalinter --install
