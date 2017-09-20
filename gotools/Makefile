@@ -9,6 +9,9 @@ install all: $(INSTALLED_TOOLS)
 $(PREFIX)/bin/% : bin/%
 	$(SUDO) cp -a $< $@
 
+build:
+	./tools.bash
+
 verify:
 	@echo TOOLS=$(TOOLS)
 	@echo INSTALLED_TOOLS=$(INSTALLED_TOOLS)
