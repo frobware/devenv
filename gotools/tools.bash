@@ -17,7 +17,6 @@ go get ${UPDATE} golang.org/x/tools/cmd/stringer
 go get ${UPDATE} github.com/josharian/impl
 go get ${UPDATE} golang.org/x/tools/cmd/goimports
 go get ${UPDATE} sourcegraph.com/sqs/goreturns
-go get ${UPDATE} github.com/rogpeppe/godef
 go get ${UPDATE} github.com/nsf/gocode
 go get ${UPDATE} golang.org/x/tools/cmd/guru
 go get ${UPDATE} golang.org/x/tools/cmd/gorename
@@ -28,5 +27,12 @@ go get ${UPDATE} github.com/zmb3/gogetdoc
 
 go get ${UPDATE} -d github.com/derekparker/delve/cmd/dlv
 make -C $GOPATH/src/github.com/derekparker/delve install
+
+(go get ${UPDATE} github.com/rogpeppe/godef;
+ cd $GOPATH/src/github.com/rogpeppe/godef;
+ git remote add fork https://github.com/frobware/godef.git
+ git fetch -a fork
+ git checkout nfi-but-better
+ go install -x ./...)
 
 PATH=$GOPATH/bin:$PATH gometalinter --install
