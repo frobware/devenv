@@ -1,7 +1,7 @@
 #!/bin/bash
 
 TOPDIR="$(cd $(dirname "${BASH_SOURCE[0]}") && pwd -P)"
-source $TOPDIR/env.sh
+source $TOPDIR/env.bash
 
 go get ${UPDATE} golang.org/x/tools/cmd/...
 go get ${UPDATE} github.com/dougm/goflymake
