@@ -1,7 +1,5 @@
 ## Export everything by default.
 
-set -a
-GOPATH=$TOPDIR
-set +a
+TOPDIR="$(cd $(dirname "${BASH_SOURCE[0]}") && pwd -P)"
 
-mkdir -p ${GOPATH}/{bin,pkg,src}
+export GOPATH=$TOPDIR
