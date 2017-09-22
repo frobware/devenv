@@ -25,7 +25,7 @@ go get ${UPDATE} github.com/fzipp/pythia
 go get ${UPDATE} github.com/alecthomas/gometalinter
 go get ${UPDATE} github.com/zmb3/gogetdoc
 go get ${UPDATE} github.com/direnv/direnv
-
+go get ${UPDATE} github.com/cloudflare/cfssl/cmd/...
 go get ${UPDATE} -d github.com/derekparker/delve/cmd/dlv
 make -C $GOPATH/src/github.com/derekparker/delve install
 
