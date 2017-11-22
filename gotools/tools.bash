@@ -26,6 +26,7 @@ go get ${UPDATE} github.com/alecthomas/gometalinter
 go get ${UPDATE} github.com/zmb3/gogetdoc
 go get ${UPDATE} github.com/direnv/direnv
 go get ${UPDATE} github.com/cloudflare/cfssl/cmd/...
+go get ${UPDATE} github.com/rakyll/hey
 go get ${UPDATE} -d github.com/derekparker/delve/cmd/dlv
 go get ${UPDATE} golang.org/x/tools/cmd/guru
 
