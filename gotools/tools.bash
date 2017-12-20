@@ -29,6 +29,7 @@ go get ${UPDATE} github.com/cloudflare/cfssl/cmd/...
 go get ${UPDATE} github.com/rakyll/hey
 go get ${UPDATE} -d github.com/derekparker/delve/cmd/dlv
 go get ${UPDATE} golang.org/x/tools/cmd/guru
+go get ${UPDATE} github.com/bronze1man/yaml2json
 
 make -C $GOPATH/src/github.com/derekparker/delve install
 
