@@ -31,7 +31,7 @@ go get ${UPDATE} -d github.com/derekparker/delve/cmd/dlv
 go get ${UPDATE} golang.org/x/tools/cmd/guru
 go get ${UPDATE} github.com/bronze1man/yaml2json
 go get ${UPDATE} github.com/StanfordSNR/guardian-agent/cmd/...
-
+go get ${UPDATE} github.com/tomnomnom/gron
 make -C $GOPATH/src/github.com/derekparker/delve install
 
 (go get ${UPDATE} github.com/rogpeppe/godef;
