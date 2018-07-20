@@ -44,7 +44,7 @@ done
 
 for d in $directories; do
     test_file="$d/$(basename $d)"
-    test_file=${test_file#${GOPATH}/src/github.com/juju/juju/}
+    test_file=${test_file#${GOPATH}/src/github.com/k8s.io/kubernetes/}
     test_file=${test_file//\//-}
     echo $test_file
     cat <<EOF > $build_dir/${test_file}.bash
