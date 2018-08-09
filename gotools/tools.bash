@@ -37,6 +37,8 @@ go get ${UPDATE} github.com/google/gops
 go get ${UPDATE} github.com/golang/lint/...
 # make -C $GOPATH/src/github.com/derekparker/delve install
 
+go get ${UPDATE} github.com/openshift/imagebuilder/cmd/imagebuilder
+
 (go get ${UPDATE} github.com/rogpeppe/godef;
  cd $GOPATH/src/github.com/rogpeppe/godef;
  git remote add fork https://github.com/frobware/godef.git
