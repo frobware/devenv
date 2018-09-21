@@ -35,6 +35,8 @@ go get ${UPDATE} github.com/tomnomnom/gron
 go get ${UPDATE} github.com/labstack/tunnel/cmd/...
 go get ${UPDATE} github.com/google/gops
 go get ${UPDATE} github.com/golang/lint/...
+go get ${UPDATE} github.com/subfuzion/envtpl
+
 # make -C $GOPATH/src/github.com/derekparker/delve install
 
 go get ${UPDATE} github.com/openshift/imagebuilder/cmd/imagebuilder
