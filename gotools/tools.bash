@@ -17,6 +17,8 @@ go get ${UPDATE} golang.org/x/tools/cmd/stringer
 go get ${UPDATE} github.com/josharian/impl
 go get ${UPDATE} golang.org/x/tools/cmd/goimports
 go get ${UPDATE} sourcegraph.com/sqs/goreturns
+#go get ${UPDATE} github.com/nsf/gocode
+go get ${UPDATE} github.com/mdempsky/gocode
 go get ${UPDATE} github.com/nsf/gocode
 go get ${UPDATE} golang.org/x/tools/cmd/guru
 go get ${UPDATE} golang.org/x/tools/cmd/gorename
