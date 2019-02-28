@@ -39,6 +39,7 @@ go get ${UPDATE} github.com/google/gops
 go get ${UPDATE} github.com/golang/lint/...
 go get ${UPDATE} github.com/subfuzion/envtpl
 go get ${UPDATE} github.com/davidrjenni/reftools/cmd/fillstruct
+go get ${UPDATE} github.com/gopasspw/gopass
 
 # make -C $GOPATH/src/github.com/derekparker/delve install
 
