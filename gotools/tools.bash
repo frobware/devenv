@@ -41,7 +41,6 @@ go get ${UPDATE} github.com/subfuzion/envtpl
 go get ${UPDATE} github.com/davidrjenni/reftools/cmd/fillstruct
 go get ${UPDATE} github.com/gopasspw/gopass
 go get ${UPDATE} github.com/kyoh86/scopelint
-go get ${UPDATE} golang.org/x/tools/gopls
 
 # make -C $GOPATH/src/github.com/derekparker/delve install
 
