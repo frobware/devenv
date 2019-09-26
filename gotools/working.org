@@ -1,0 +1,21 @@
+* github.com/mdempsky/gocode:
+
+** commit 7fb65232883f19a8305706b4b4ff32916ffbcaf5 (HEAD -> master, origin/master, origin/HEAD)
+Merge: be056ad f531cad
+Author: Rebecca Stambler <rstambler@golang.org>
+Date:   Sat Feb 2 19:19:40 2019 -0500
+
+    emacs-company: use named function in emacs-company kill-emacs-hook
+    
+    Merge pull request #104 from dakra/emacs-company-named-kill-hook-function
+
+* github.com/rogpeppe/godef
+
+** commit 5784335da72394c8f53d9036c26fcc876718879b (HEAD -> master, tag: v1.1.1, origin/master, origin/HEAD)
+Merge: 0382f25 4c4b53e
+Author: Roger Peppe <rogpeppe@gmail.com>
+Date:   Fri Dec 14 14:17:40 2018 +0000
+
+    Merge pull request #101 from myitcv/tidy_up_vendor
+    
+    deps: complete vendor, remove Godeps, add basic Travis
