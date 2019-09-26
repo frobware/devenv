@@ -4,10 +4,7 @@ SUDO ?=
 
 INSTALLED_TOOLS := $(patsubst %,$(PREFIX)/%,$(TOOLS))
 
-install: $(INSTALLED_TOOLS) $(PREFIX)/bin/sga-guard
-
-$(PREFIX/)bin/sga-guard : ./src/github.com/StanfordSNR/guardian-agent/scripts/sga-guard
-	$(SUDO) cp -a $< $@
+install: $(INSTALLED_TOOLS) 
 
 $(PREFIX)/bin/%: bin/% | $(PREFIX)
 	$(SUDO) cp -a $< $@
