@@ -7,3 +7,4 @@ go get ${UPDATE} github.com/rogpeppe/godef
 go get ${UPDATE} github.com/mdempsky/gocode
 go get ${UPDATE} golang.org/x/tools/cmd/goimports
 go get ${UPDATE} golang.org/x/tools/cmd/guru
+go get ${UPDATE} marwan.io/golist
