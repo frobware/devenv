@@ -9,3 +9,4 @@ go get ${UPDATE} golang.org/x/tools/cmd/goimports
 go get ${UPDATE} golang.org/x/tools/cmd/guru
 go get ${UPDATE} marwan.io/golist
 go get ${UPDATE} github.com/golangci/golangci-lint/cmd/golangci-lint
+go get ${UPDATE} github.com/openshift/imagebuilder/cmd/imagebuilder
