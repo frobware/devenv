@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 TOPDIR="$(cd $(dirname "${BASH_SOURCE[0]}") && pwd -P)"
 source $TOPDIR/env.bash
